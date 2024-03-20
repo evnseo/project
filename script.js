@@ -153,19 +153,19 @@ function collisionDetection() { //collisionDetection(): Mendeteksi tabrakan anta
     }
 }
 function drawScore() { //drawScore(): Menggambar skor di layar.
-    ctx.font = "16px Arial";
+    ctx.font = "15px Arial";
     ctx.fillStyle = "rgb(83, 92, 145)";
     ctx.fillText("Score: "+score, 8, 20);
 }
 
 function drawLives() { //drawLives(): Menggambar jumlah nyawa di layar.
-    ctx.font = "16px Arial";
+    ctx.font = "15px Arial";
     ctx.fillStyle = "rgb(83, 92, 145)";
     ctx.fillText("Darah: "+lives, canvas.width-65, 20);
 }
 
 function alto() { //alto(): Menggambar judul permainan di layar.
-    ctx.font = "16px Arial";
+    ctx.font = "15px Arial";
     ctx.fillStyle = "rgb(7, 15, 43)";
     ctx.fillText("Game Pemrograman Web Week 5", 160, 17);
 }
